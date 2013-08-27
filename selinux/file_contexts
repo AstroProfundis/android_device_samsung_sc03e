@@ -17,10 +17,10 @@
 
 # Bluetooth
 /dev/ttySAC0                            u:object_r:hci_attach_dev:s0
-/efs/bluetooth(/.*)?                    u:object_r:bluetooth_data_file:s0
+/efs/bluetooth(/.*)?                	u:object_r:bluetooth_data_file:s0
 
 # Sensors
-/dev/akm8975                            u:object_r:sensors_device:s0
+/dev/akm8963                            u:object_r:sensors_device:s0
 /efs/gyro_cal_data                      u:object_r:sensors_data_file:s0
 
 # Camera
@@ -44,7 +44,7 @@
 # Wifi
 /efs/wifi/.mac.info                     u:object_r:wifi_data_file:s0
 
-# Sec-ril
+# Sec-ril 
 /efs/FactoryApp/keystr                  u:object_r:efs_file:s0
 /efs/FactoryApp/factorymode             u:object_r:efs_file:s0
 /efs/FactoryApp/serial_no               u:object_r:efs_file:s0
