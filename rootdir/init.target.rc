@@ -121,6 +121,7 @@ service qmuxd /system/bin/qmuxd
     seclabel u:r:qmux:s0
     group radio log audio bluetooth gps log
 
+#start GNSS/Sensor interface daemon
 service gsiff_daemon /system/bin/gsiff_daemon
     class late_start
     user system
