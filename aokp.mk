@@ -15,7 +15,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sc03e
-PRODUCT_NAME := cm_sc03e
+PRODUCT_NAME := aokp_sc03e
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SC-03E
 PRODUCT_MANUFACTURER := samsung

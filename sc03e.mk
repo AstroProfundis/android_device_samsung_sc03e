@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 
 # AOJP config (Locale,other)
-$(call inherit-product-if-exists, vendor/aojp/config/aojp.mk)
+$(call inherit-product-if-exists, vendor/aokp/configs/common.mk)
 
 # Include common makefile
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
