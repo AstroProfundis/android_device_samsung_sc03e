@@ -27,7 +27,7 @@ ENABLE_GCCONLY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
 SUPPRES_UNUSED_WARNING := true
-TARGET_GCC_VERSION_EXP := 4.8
+TARGET_GCC_VERSION_EXP := 4.9
 TARGET_USE_PIPE := true
 USE_O3_OPTIMIZATIONS := true
 
@@ -42,7 +42,7 @@ COMMON_GLOBAL_CFLAGS += -DCAMERA_WITH_CITYID_PARAM
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos4412dcm
-TARGET_KERNEL_CONFIG := atr_sc03e_aosp_defconfig
+TARGET_KERNEL_CONFIG := atr_sc03e_cm_defconfig
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/sc03e/rootdir/fstab.smdk4x12
