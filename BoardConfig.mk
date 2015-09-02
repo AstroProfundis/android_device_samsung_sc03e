@@ -19,7 +19,6 @@
 -include device/samsung/smdk4412-common/BoardCommonConfig.mk
 -include device/samsung/smdk4412-qcom-common/BoardCommonConfig.mk
 
-<<<<<<< HEAD
 LOCAL_PATH := device/samsung/sc03e
 
 -include device/samsung/sc03e/BoardCommonConfig.mk
