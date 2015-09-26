@@ -6,7 +6,7 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/sc03e/full_sc03e.mk)
@@ -15,7 +15,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sc03e
-PRODUCT_NAME := cm_sc03e
+PRODUCT_NAME := omni_sc03e
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SC-03E
 PRODUCT_MANUFACTURER := samsung
